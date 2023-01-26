@@ -1,13 +1,11 @@
-package com.jojoidu.book.freelecspring2webservice;
+package com.jojoidu.book.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FirstApplication {
-
+public class Application {
     public static void main(String[] args) {
-        SpringApplication.run(FirstApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
-
 }
