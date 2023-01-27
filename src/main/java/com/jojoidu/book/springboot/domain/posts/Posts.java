@@ -1,10 +1,11 @@
 package com.jojoidu.book.springboot.domain.posts;
 
 import com.jojoidu.book.springboot.domain.BaseTimeEntity;
-import jakarta.persistence.*;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+
+import javax.persistence.*;
 
 @Getter
 @NoArgsConstructor
