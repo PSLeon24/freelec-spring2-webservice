@@ -30,8 +30,14 @@ dependencies {
     implementation 'com.h2database:h2'
     //compileOnly 'com.h2database:h2'
 
-    //Mustache
+    // Mustache
     implementation 'org.springframework.boot:spring-boot-starter-mustache'
+
+    // Spring Security
+    implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
+
+    // Spring-Session-Jdbc
+    implementation 'org.springframework.session:spring-session-jdbc'
 }
 
 tasks.named('test') {
